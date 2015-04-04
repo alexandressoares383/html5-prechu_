@@ -2,6 +2,7 @@
 .container {
 	width: 980px;
 	margin: 0px auto;
+	padding-bottom: 80px;
 }
 
 header {
@@ -53,27 +54,56 @@ header {
 	margin: 0px auto;
 }
 
-.icones {
+.conteudo {
 	float: right;
 	margin-top: 52px;
 
 }
 
-.icones li {
+.conteudo .itens li {
 	float: left;
 	margin-right: 30px;
 }
 
-.icones h2 {
+.conteudo .itens h2 {
 	text-decoration: none;
 	color: #5094f2;
 	font-family: "Flaticon";
 	font-size: 20px;
 }
 
-.icones h2 p {
+.conteudo .itens h2 p {
 	text-decoration: none;
 	color: #a1a1a1;
 	font-family: "Flaticon";
 	font-size: 14px;
+}
+
+.shopcart {
+	float: left;
+	margin: 92px 0;
+	clear: right;
+}
+
+.texto {
+	float: right;
+	width: 460px;
+	height: 298px;
+	box-sizing: border-box;
+	margin-left: 85px;
+}
+
+.texto h2 {
+	font-size: 26px;
+}
+
+.texto p {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+
+
+.footer {
+	padding-bottom: 60px;
 }
